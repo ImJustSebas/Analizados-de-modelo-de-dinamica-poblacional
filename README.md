@@ -58,19 +58,6 @@ text
 - **SIR**:
   - Población total, susceptibles iniciales, infectados iniciales, recuperados iniciales, beta (transmisión), gamma (recuperación), tiempo máximo, paso de tiempo.
 
-## Estructura del proyecto
-.
-├── main.py # Punto de entrada
-├── modelo.py # Definición de ecuaciones diferenciales
-├── simulacion.py # Lógica de simulación (solve_ivp)
-├── ui.py # Interfaz gráfica (Tkinter)
-├── graficos.py # Funciones de visualización con Matplotlib
-├── utils.py # Validaciones y utilidades
-├── requirements.txt # Dependencias
-└── README.md
-
-text
-
 ## Notas técnicas
 
 - Se utiliza `scipy.integrate.solve_ivp` para resolver las ecuaciones diferenciales.
@@ -79,5 +66,7 @@ text
 - El código sigue las convenciones de estilo PEP8 y está comentado en español.
 
 ## Autor
+
+Sebastian Porras Solano
 
 Desarrollado como proyecto de portafolio para demostrar habilidades en Python, modelado matemático y desarrollo de interfaces gráficas.
